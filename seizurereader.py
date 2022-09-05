@@ -1,4 +1,4 @@
-#Takes string with file path as argument (eg. "/home/user/file.edf.seizure)
+#Takes string with file path as argument (eg. "/files/file.edf.seizure)
 #Returns array on the format [1st seizure start time, 1st seizure start time in samples, 1st seizure end time, 1st seizure end time in samples, ...... , nth seizure start time, nth seizure start time in samples, nth seizure end time, nth seizure end time in samples]
 
 def openSeizure(file):
